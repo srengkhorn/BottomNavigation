@@ -53,11 +53,13 @@ Below are sample screenshots of the implemented designs.
 ## 🎥 Demo Videos
 
 ▶️ **Custom Bottom Bar with Animation**
-- https://github.com/user-attachments/assets/e2e5058e-0399-48f2-b3bf-4c633da28993
+-
+-  https://github.com/user-attachments/assets/e2e5058e-0399-48f2-b3bf-4c633da28993
 
 
 ▶️ **Navigation Bar in Action**
-- https://github.com/user-attachments/assets/8cf7e631-5d1f-48bf-bb57-58edc106293b
+-
+-  https://github.com/user-attachments/assets/8cf7e631-5d1f-48bf-bb57-58edc106293b
 
 ---
 
