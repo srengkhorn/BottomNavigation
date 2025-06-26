@@ -42,11 +42,12 @@ This repository demonstrates the use of **Material 3 BottomAppBar** for screen-s
 Below are sample screenshots of the implemented designs.
 
 
-![Screenshot 1](https://github.com/Shoaibkhalid65/BottomBars/blob/master/screenshots/bottombar_1.png)
-https://github.com/Shoaibkhalid65/BottomBars/blob/master/screenshots/bottombar_1.png
-![screen hsot](https://github.com/Shoaibkhalid65/BottomBars/blob/master/screenshots/bottombar_1.png)
+
+![Screenshot 1](screenshots/bottombar_1.png)
 ![Screenshot 1](screenshots/bottombar_2.png)
-![Image Description](screenshots/bottombar_7.png)
+![Screenshot 1](screenshots/bottombar_3.png)
+![Screenshot 1](screenshots/bottombar_6.png)
+![Screenshot 1](screenshots/bottombar_7.png)
 
 
 
