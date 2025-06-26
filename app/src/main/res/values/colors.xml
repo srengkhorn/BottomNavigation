@@ -10,6 +10,35 @@
     <color name="trans_green1">#c0f3ca</color>
     <color name="trans_green2">#d8fdd2</color>
     <color name="dark_green">#0C4B30</color>
+
     <color name="ak_green">#FF3FDC85</color>
+    <color name="trans_blue1">#8CBDDC</color>
+    <color name="trans_blue2">#CEE0ED</color>
+
+    <color name="light_green">#7be263</color>
+    <color name="bar_background">#020206</color>
+    <color name="icon_background">#101012</color>
+    <color name="icon_background1">#101014</color>
+    <color name="icon_tint">#878789</color>
+    <color name="label_color">#fbfbfb</color>
+
+    <color name="meron_color">#c51d51</color>
+    <color name="icon_color">#cecece</color>
+
+    <color name="back_color">#003a3d</color>
+    <color name="circle_color">#34787c</color>
+    <color name="icon_color_1">#69a2a1</color>
+
+
+
+
+
+
+
+
+
+
+
+
 
 </resources>

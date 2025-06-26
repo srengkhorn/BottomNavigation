@@ -29,7 +29,9 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.navigation.compose.rememberNavController
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3ExpressiveApi::class)
 @Composable
@@ -112,4 +114,12 @@ fun BottomAppBarComposable2(scrollBehavior: BottomAppBarScrollBehavior){
             )
         }
     }
+}
+@OptIn(ExperimentalMaterial3Api::class)
+@Preview
+@Composable
+fun PreviewSample2(){
+    val scrollBehavior= BottomAppBarDefaults.exitAlwaysScrollBehavior()
+    val navController= rememberNavController()
+    AKBottomAppBar(navController)
 }
