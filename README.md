@@ -44,13 +44,12 @@ Below are sample screenshots of the implemented designs.
 
 
 
-<img src="screenshots/bottombar_1.png" width="300" style="margin-bottom: 20px;"/>
+<img src="screenshots/bottombar_7.png" width="400" style="margin-bottom: 20px;"/>
+<img src="screenshots/bottombar_6.png" width="400" style="margin-bottom: 20px;"/>
+<img src="screenshots/bottombar_1.png" width="400" style="margin-bottom: 20px;"/>
+<img src="screenshots/bottombar_3.png" width="400" style="margin-bottom: 20px;"/>
+<img src="screenshots/bottombar_2.png" width="400" style="margin-bottom: 20px;"/>
 
-![Screenshot 1](screenshots/bottombar_1.png)
-![Screenshot 1](screenshots/bottombar_2.png)
-![Screenshot 1](screenshots/bottombar_3.png)
-![Screenshot 1](screenshots/bottombar_6.png)
-![Screenshot 1](screenshots/bottombar_7.png)
 
 
 
