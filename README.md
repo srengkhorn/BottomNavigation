@@ -44,7 +44,7 @@ Below are sample screenshots of the implemented designs.
 
 
 
-<img src="screenshot/bottombar_1.png" width="400" style="margin-bottom: 20px;"/>
+<img src="screenshots/bottombar_1.png" width="300" style="margin-bottom: 20px;"/>
 
 ![Screenshot 1](screenshots/bottombar_1.png)
 ![Screenshot 1](screenshots/bottombar_2.png)
