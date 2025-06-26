@@ -61,8 +61,9 @@ https://github.com/user-attachments/assets/76ae0a0b-6bec-422d-8731-541313ed575f
 
 
 ▶️ **Navigation Bar in Action**
--
--  https://github.com/user-attachments/assets/8cf7e631-5d1f-48bf-bb57-58edc106293b
+
+
+https://github.com/user-attachments/assets/8cf7e631-5d1f-48bf-bb57-58edc106293b
 
 ---
 
