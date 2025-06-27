@@ -60,4 +60,10 @@ dependencies {
     implementation(libs.material3)
     implementation(libs.androidx.material.icons.extended)
     implementation(libs.androidx.navigation.compose)
+// animation bottom bar library by exyte
+    implementation(libs.animated.navigation.bar)
+// animation bottom bar library by cano pas
+    implementation(libs.bottombar)
+
+
 }

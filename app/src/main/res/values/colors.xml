@@ -22,8 +22,9 @@
     <color name="icon_tint">#878789</color>
     <color name="label_color">#fbfbfb</color>
 
-    <color name="meron_color">#c51d51</color>
-    <color name="icon_color">#cecece</color>
+    <color name="meron_color">#c91d50</color>
+    <color name="icon_color">#b1b1b1</color>
+    <color name="meron_background_color">#fdd4e0</color>
 
     <color name="back_color">#003a3d</color>
     <color name="circle_color">#34787c</color>

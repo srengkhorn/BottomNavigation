@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.BottomAppBar
@@ -26,9 +27,11 @@ import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.bottombars.R
@@ -45,7 +48,7 @@ fun BottomNavigationBarSample3() {
     )
     Surface(
         modifier = Modifier
-            .padding(bottom = 20.dp)
+            .padding(bottom = 90.dp, start = 20.dp, end = 20.dp)
         .fillMaxWidth(),
         color = Color.Transparent,
         shape = RoundedCornerShape(50.dp),
@@ -56,23 +59,25 @@ fun BottomNavigationBarSample3() {
             modifier = Modifier
                 .background(
                     shape = CircleShape,
-                    color = Color.Cyan
-                ),
+                    color = colorResource(R.color.bar_background)
+                ).shadow(16.dp)
+                .padding(start = 1.dp),
             tonalElevation = 16.dp,
+
             containerColor = colorResource(R.color.bar_background),
         ) {
             labels.forEachIndexed { index, string ->
                 val selected = selectedIndex == index
                 Card(
                     modifier = Modifier
-                        .padding(start = 3.dp, end = 3.dp)
+                        .padding(start = 3.dp, end = 3.dp, bottom = 5.dp)
                         .background(
                             color = if (selected) colorResource(R.color.icon_background) else colorResource(
                                 R.color.icon_background1
                             ),
                             shape = if (selected) RoundedCornerShape(36.dp) else CircleShape
                         )
-                        .padding(6.dp)
+                        .padding(7.dp)
                         .clickable(onClick = { selectedIndex = index }),
                     colors = CardDefaults.cardColors(
                         containerColor = if (selected) colorResource(R.color.icon_background) else colorResource(
@@ -108,7 +113,8 @@ fun BottomNavigationBarSample3() {
                                 color = Color.White,
                                 modifier = Modifier.padding(
                                     14.dp
-                                )
+                                ).width(60.dp),
+                                textAlign = TextAlign.Center
                             )
                         }
                     }
@@ -122,5 +128,5 @@ fun BottomNavigationBarSample3() {
 @Preview(showBackground = false)
 @Composable
 fun PreviewSample(){
-    BottomNavigationBarSample1()
+    BottomNavigationBarSample3()
 }
