@@ -142,6 +142,8 @@ implementation ("com.canopas.compose-animated-navigationbar:bottombar:<latest-ve
 * Spring-based smooth animations.
 * Fully composable and easy to integrate.
 * Offers customization options for color, shape, and behavior.
+**💡 Personal Tip**:
+ When using this library, you might run into indicator alignment issues — sometimes the indicator appears slightly above or below the expected position relative to the bottom bar item. I faced this myself, and what worked for me was adjusting the width of the item. Try increasing or decreasing the item's width until the indicator aligns properly.
 
 ---
 ## ⭐ Like the Project?
