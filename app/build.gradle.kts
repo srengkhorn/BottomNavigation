@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "com.example.bottombars"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.example.bottombars"
         minSdk = 26
-        targetSdk = 35
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
@@ -64,6 +64,8 @@ dependencies {
     implementation(libs.animated.navigation.bar)
 // animation bottom bar library by cano pas
     implementation(libs.bottombar)
+
+    implementation(libs.blur.haze)
 
 
 }
