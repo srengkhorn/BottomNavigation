@@ -66,6 +66,7 @@ dependencies {
     implementation(libs.bottombar)
 
     implementation(libs.blur.haze)
+    implementation(libs.coil.compose)
 
 
 }
