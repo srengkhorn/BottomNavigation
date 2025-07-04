@@ -22,9 +22,9 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import com.example.bottombars.screens.CircleBottomNavigation
-import com.example.bottombars.screens.DefaultWaterDropBottomNavItems
-import com.example.bottombars.screens.GlassBottomNavigation
+import com.example.bottombars.shape.CircleBottomNavigation
+import com.example.bottombars.animation.DefaultWaterDropBottomNavItems
+import com.example.bottombars.shape.GlassBottomNavigation
 import dev.chrisbanes.haze.HazeState
 import dev.chrisbanes.haze.hazeSource
 

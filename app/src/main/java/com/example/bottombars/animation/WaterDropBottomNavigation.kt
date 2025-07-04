@@ -1,4 +1,4 @@
-package com.example.bottombars.screens
+package com.example.bottombars.animation
 
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.FastOutSlowInEasing

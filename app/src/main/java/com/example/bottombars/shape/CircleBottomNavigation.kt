@@ -1,4 +1,4 @@
-package com.example.bottombars.screens
+package com.example.bottombars.shape
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.core.Spring

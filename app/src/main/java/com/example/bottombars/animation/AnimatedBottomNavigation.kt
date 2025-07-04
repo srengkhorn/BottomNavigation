@@ -1,4 +1,4 @@
-package com.example.bottombars.screens
+package com.example.bottombars.animation
 
 import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.spring

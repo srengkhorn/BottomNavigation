@@ -9,7 +9,7 @@
  *
  * Designed and developed by Chip Mong Commercial Bank Plc.
  */
-package com.example.bottombars.screens
+package com.example.bottombars.shape
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -65,7 +65,6 @@ import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import com.example.bottombars.R
 import com.example.bottombars.ui.theme.FontSize
-import com.example.bottombars.ui.theme.GrayDark700
 import com.example.bottombars.ui.theme.Purple40
 import com.example.bottombars.ui.theme.spacing
 import dev.chrisbanes.haze.HazeState
