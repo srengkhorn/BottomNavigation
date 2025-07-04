@@ -1,3 +1,6 @@
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+import org.jetbrains.kotlin.gradle.dsl.KotlinVersion
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -28,14 +31,48 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
     }
-    kotlinOptions {
-        jvmTarget = "11"
+
+    kotlin {
+        compilerOptions {
+            apiVersion = org.jetbrains.kotlin.gradle.dsl.KotlinVersion.KOTLIN_2_3
+            languageVersion = KotlinVersion.KOTLIN_2_3
+            jvmTarget = JvmTarget.JVM_21
+            freeCompilerArgs.addAll(
+                "-jvm-default=no-compatibility",
+                "-Xcontext-parameters",
+                "-Xcontext-sensetive-resolution",
+            )
+        }
     }
     buildFeatures {
         compose = true
+    }
+    packaging {
+        resources {
+            excludes += arrayOf(
+                "DebugProbesKt.bin",
+                "kotlin-tooling-metadata.json",
+                "kotlin/**",
+                "META-INF/*.version",
+                "META-INF/**/LICENSE.txt"
+            )
+        }
+        dex {
+            useLegacyPackaging = true
+        }
+        jniLibs {
+            useLegacyPackaging = true
+        }
+    }
+    dependenciesInfo {
+        includeInApk = false
+        includeInBundle = false
+    }
+    lint {
+        checkReleaseBuilds = false
     }
 }
 
@@ -67,6 +104,14 @@ dependencies {
 
     implementation(libs.blur.haze)
     implementation(libs.coil.compose)
+
+    implementation(files("libs/expressa-core-release.aar"))
+    implementation(files("libs/expressa-components-release.aar"))
+
+    implementation(libs.androidx.compose.material.ripple)
+    implementation(libs.androidx.compose.foundation)
+    implementation(libs.androidx.compose.ui)
+    implementation(libs.androidx.compose.ui.graphics)
 
 
 }
